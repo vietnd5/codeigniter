@@ -1,0 +1,37 @@
+<div class="main-content" ng-if="loadDone">
+    <div class="control" ng-if="type != 2">
+        <button class="btn-create" ng-click="create()">Tạo</button>
+    </div>  
+    <div class="content" ng-if="type == 1">
+        <div ng-repeat="item in datas track by $index">
+            <div>{{item.name}}</div>
+            <div>{{item.phone}}</div>
+            <button class="btn-create" ng-click="edit(item)">Sửa</button>
+            <!-- <div><img src="{{item.avatar}}"></div> -->
+        </div>
+    </div>
+    <div class="content" ng-if="type == 2">
+        <div class="item">
+            Ten
+            <input type="text" ng-model="user.name">
+        </div>
+        <div class="item">
+            Phone
+            <input type="text" ng-model="user.phone">
+        </div>
+        <button class="btn-create" ng-click="save(user)">Tạo</button>
+        <button class="btn-create" ng-click="back()">Hủy</button>
+    </div>
+    <div class="content" ng-if="type == 3">
+        <div class="item">
+            Ten
+            <input type="text" ng-model="editUser.name">
+        </div>
+        <div class="item">
+            Phone
+            <input type="text" ng-model="editUser.phone">
+        </div>
+        <button class="btn-create" ng-click="editFn(editUser)">Tạo</button>
+        <button class="btn-create" ng-click="back()">Hủy</button>
+    </div>
+</div>

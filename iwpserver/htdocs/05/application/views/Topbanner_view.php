@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	<title> Artica  </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;subset=vietnamese" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
-	<script type="text/javascript" src="<?php echo base_url(); ?>vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="<?php echo base_url(); ?>vendor/isotope.pkgd.min.js.js"></script>
- 	<script type="text/javascript" src="<?php echo base_url(); ?>imagesloaded.pkgd.min.js"></script>
- 	<script type="text/javascript" src="<?php echo base_url(); ?>1.js"></script>
-	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/bootstrap.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/font-awesome.css">
- 	<link rel="stylesheet" href="<?php echo base_url(); ?>1.css">
+<html lang="en">
+	<head>
+		<title> Artica  </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">  
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;subset=vietnamese" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+		<script type="text/javascript" src="<?php echo base_url(); ?>vendor/bootstrap.js"></script>
+	 	<script type="text/javascript" src="<?php echo base_url(); ?>vendor/isotope.pkgd.min.js.js"></script>
+	 	<script type="text/javascript" src="<?php echo base_url(); ?>imagesloaded.pkgd.min.js"></script>
+	 	<script type="text/javascript" src="<?php echo base_url(); ?>1.js"></script>
+		<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/bootstrap.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/font-awesome.css">
+	 	<link rel="stylesheet" href="<?php echo base_url(); ?>1.css">
    </head>
 <body >
 
